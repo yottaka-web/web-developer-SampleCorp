@@ -8,8 +8,9 @@ $(window).on('load resize', function(){
       direction: 'horizontal',
       loop: true,
     
-      slidesPerView: 1.36861313869,
+      // slidesPerView: 2,
       spaceBetween: 20,
+      width: 274,
     
       // If we need pagination
       pagination: {
@@ -23,8 +24,9 @@ $(window).on('load resize', function(){
       direction: 'horizontal',
       loop: true,
     
-      slidesPerView: 3,
+      // slidesPerView: 3,
       spaceBetween: 40,
+      width: 400,
     
       // If we need pagination
       pagination: {
